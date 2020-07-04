@@ -1,0 +1,156 @@
+/* GLOBAIS */
+*{
+    margin: 0;
+    font-family: 'Pangolin', cursive;
+}
+
+button{
+    margin-top: 20px;
+    align-self: center;
+
+    box-sizing: border-box;
+    padding: 10px;
+
+    width: 140px;
+    height: 50px;
+
+    border-radius: 20px;
+    border: 3px solid white;
+
+    box-shadow: 3px 3px 2px rgba(255, 255, 255, 0.349);
+
+    background-color: #feb200;
+
+    color: #1C1C1C;
+    
+    outline: none;
+}
+
+button:hover{
+    border: 3px solid #feb200;
+
+    color:  rgb(84, 84, 144);
+
+    background-color: white;
+
+    box-shadow: 3px 4px 5px #feb20083;
+
+    transition: 4ms;
+}
+
+/* LOCAIS */
+
+#content {
+    background-color: rgb(84, 84, 144);
+
+    display: grid;
+    grid-template-columns: 100px 1fr;
+
+    width: 100vw;
+    height: 100vh;
+
+    align-items: center;
+}
+
+.players{
+    margin-left: 20px;
+
+    width: 150px;
+
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.players div {
+    margin-top: 20px;
+
+    display: flex;
+    align-items: center;
+}
+
+.players input{
+    background-color: rgb(67, 67, 133);
+    
+    margin-right: 10px;
+
+    border-radius: 8px;
+    border: none;
+    border-bottom: 2px solid rgb(39, 39, 156);
+
+    height: 30px;
+    width: 150px;
+
+    font-size: 15px;
+    padding: 15px;
+    box-sizing: border-box;
+
+    text-align: center;
+
+    color: white;
+    outline: none;
+}
+
+.players input:focus{
+    border: 3px solid rgba(0, 0, 0, 0.883);
+}
+
+::placeholder{
+    color: white;
+}
+
+.players span{
+    font-size: 20px;
+}
+
+span.blink {
+    font-size: 28px;
+    color: white;
+
+    transition: 4ms;
+}
+
+#gameboard {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+table{
+    border-collapse: collapse;
+
+    margin-right: 90px;
+}
+
+
+#gameboard table td{
+    width: 100px;
+    height: 100px;
+
+    box-sizing: border-box;
+
+    text-align: center;
+
+    font-size: 40px;
+    
+    color: white;
+
+}
+
+.a11, .a12, .a13{
+    border-bottom: 10px solid rgb(67, 67, 133);
+}
+
+.a12, .a22, .a32 {
+    border-left: 10px solid rgb(67, 67, 133);
+    border-right: 10px solid rgb(67, 67, 133);
+}
+
+.a31, .a32, .a33{
+    border-top: 10px solid rgb(67, 67, 133);
+}
+
+
+

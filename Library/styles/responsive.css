@@ -1,0 +1,33 @@
+@media (max-width: 1024px){
+    .books {
+        grid-template-columns: 1fr 1fr 1fr;
+        
+    }
+}
+
+@media (max-width: 800px){
+    .content .books{
+        grid-template-columns: 1fr 1fr;
+        margin-left: 30px;
+        
+
+    }
+    #modal{
+        height: 100vh;
+        width: 100vw;
+        bottom: 0;
+        
+    }
+}
+}
+
+@media (max-width: 450px){
+    header{
+        margin: 30px 0;
+    }
+
+    .content .books {
+        grid-template-columns: 1fr;
+    }
+
+    

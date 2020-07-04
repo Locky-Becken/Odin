@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library</title>
+    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="stylesheet" href="/styles/modal.css">
+    <link rel="stylesheet" href="/styles/responsive.css">
+    <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <h1>Library</h1>
+
+        <a onclick="onOff()" href="#">Add new book</a>
+    </header>
+
+    <div class="content">
+        <div class="books">
+            
+        </div>
+    </div>
+
+
+    <!-- MODAL -->
+
+   <form action="/index.html">
+    <div class="hide" id="modal">
+        <h2>Add new book</h2>
+        <div class="input-wrapper">
+            <label for="url">Url da imagem</label>
+            <input name="url" type="text" placeholder="http://">
+        </div>
+
+        <div class="input-wrapper">
+            <label for="title">Titulo</label>
+            <input name="title" type="text" placeholder="Book's name">
+        </div>
+
+        <div class="input-wrapper">
+            <label for="author">Autor</label>
+            <input name="author" type="text" placeholder="Author's name">
+        </div>
+
+        <div class="input-wrapper">
+            <label for="pages">Páginas</label>
+            <input name="pages" type="number" placeholder="200">
+        </div>
+        <div class="checkbox-wrapper">
+            <label for="status">O livro ja foi lido?</label>
+            <input name="status" type="checkbox" name="" id="">
+        </div>
+        
+        <div class="home-add">
+            <span><a href="" onclick="onOff()">Cancelar</a></span>
+
+            <button>Add</button>
+        </div>
+
+    </div>
+   </form>
+
+    <script src="/scripts/modal.js"></script>
+    <script src="/scripts/index.js"></script>
+</body>
+</html>

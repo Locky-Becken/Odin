@@ -1,0 +1,55 @@
+/* MODAL AND RESTART BUTTON */
+
+#modal {
+    position: fixed;
+
+    width: 100vw;
+    height: 100vh;
+
+    top: 0;
+    right: 0;
+
+        
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#modal.hide{
+    opacity: 0;
+    visibility: hidden;
+
+    transition: 4ms;
+}
+
+#modal #modal-content {
+    background-color: rgb(39, 39, 156, 0.5);
+
+    width: 50vw;
+    height: 60vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    box-shadow: -10px 10px 50px black;   
+
+    border-radius: 6px;
+}
+
+#modal-content #winner{
+    display: flex;
+    flex-direction: column-reverse;
+
+}
+
+#modal-content h1{
+
+    font-size: 50px;
+    color: white;
+
+    height: 100px;
+}
+
