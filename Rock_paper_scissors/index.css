@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    font-family: 'Bangers', cursive;
+
+}
+
+body{
+    background-color: #FF4000;
+    box-sizing: border-box;
+    color: white;
+}
+
+h1{
+    
+
+    font-size: 3em;
+
+    padding: 1.125em;
+}
+
+h1#title{
+    text-shadow: 2px 2px 1px black;
+    color: #FACC2E;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    height: 27.75em;
+
+}
+
+button{
+    font-size: 2em;
+    height: 1.5em;
+    width: 130px;
+
+    margin-bottom: 30px;
+    margin-left: 35px;
+
+    color: #FF8C00;
+    
+    text-shadow: 2px 2px 6px black;
+
+    outline: none;
+    transition: 4ms;
+}
+
+button:hover{
+    background-color: #5FB404;
+    
+    border: 2px solid black;
+
+    box-shadow: 2px 2px 5px black;
+
+    width: 135px;
+    height: 1.625em;
+
+
+    color: #4B8A08;
+}
+
+main #result {
+    border: 5px solid white;
+
+    align-self: center;
+
+    width: 98vw;
+    height: 300px;
+
+    margin-bottom: 70px;
+
+    display: flex;
+    position: relative;
+
+    background-color: black;
+
+    transition: 4ms;
+}
+
+#result #scores {
+    margin: 20px;
+
+    width: 200px;
+}
+
+#result #display{
+    align-self: center;
+
+    width: inherit;
+
+    text-align: center;
+
+    margin-right: 200px;
+
+    font-size: 3em;
+}
+
+
+main #rock_paper_scissors{
+    align-self: center;
+
+    height: 4.625em;
+}
